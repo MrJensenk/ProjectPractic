@@ -1,0 +1,88 @@
+body{
+    background-image: url("fon.jpg");
+}
+.wrapper {
+    overflow: hidden;
+    margin: 0px 0 30px 0;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(83, 165, 219, 0.7);
+    margin: 0 0 40px 0;
+    padding: 15px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    animation: background-color infinite 3s alternate;
+}
+@keyframes background-color{
+    50%{
+        background-color: rgba(116, 215, 228, 0.747);
+    }
+    100%{
+        background-color: rgba(219, 200, 228, 0.623);
+    }
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="date"] {
+    background-color:#0080ff;
+    padding: 15px;
+    color:#fff;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="date"]:hover{
+    box-shadow: 1px 1px 2px black;
+    transition: box-shadow 0.3s;
+
+}
+input[type="date"]:focus{
+    border-color: rgba(180, 184, 196, 0.7);
+}
+
+label {
+    font-family: "Chakra Petch", sans-serif ;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #57a0ee, #355f7c);
+    color: white;
+    text-transform: uppercase;
+    transition: background-image 0.5s;
+}
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #355f7c, #57a0ee);
+    transition: background-image 0.5s;
+    cursor: pointer;
+  }
