@@ -1,45 +1,32 @@
-async function sendPostRequest(url, data) {
-    const response = await fetch(url, {
-        mode: 'no-cors',
-        method: 'POST',
-        credentials: 'include',
-        headers: {
-            'Host': '188.235.0.207:23081',
-            'Content-Type': 'application/json',
-            'Authorization': 'Basic 0JDQtNC80LjQvdC40YHRgtGA0LDRgtC+0YA6MDAwMA==',
-            'Access-Control-Allow-Origin': 'http://188.235.0.207:23081',
-            'Access-Control-Allow-Credentials': 'true'
-        },
-        body: JSON.stringify(data),
-    });
-    let json = await response.json();
-    console.log(json);
-    return json;
-}
-
-function printError(errors) {
-    console.log("Произошла ошибка при получении данных о нарушениях", errors);
-}
-document.getElementById('buttonSearch').addEventListener('click', async function () {
-    try {
-        const startDate = document.querySelector("#start-date");
-        const endDate = document.querySelector("#end-date");
-        const violationsPost = await sendPostRequest('http://188.235.0.207:23081/DemoStand_Perm_ITS/hs/ramka_GetLocation/ViolationData', { start_date: startDate.value, end_date: endDate.value });
-        dispViolations(violationsPost);
-    }
-    catch (error) {
-        printError(error);
-    }
-
-
+ document.addEventListener('DOMContentLoaded', () => {
+    fetch('ViolationData.json')
+        .then(response => response.json())
+        .then(data => {
+            window.violations = data;
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
 });
 
-function dispViolations(violations) {
-    const violationList = document.getElementById("info_violations");
+function filterViolations() {
+    const startDate = new Date(document.getElementById('start-date').value);
+    const endDate = new Date(document.getElementById('end-date').value);
+    const violationList = document.getElementById('violation-list');
     violationList.innerHTML = '';
-    for (const violation of violations) {
-        const item = document.createElement('div');
-        item.innerHTML = `ГРЗ: ${violation.grz}<br>Дата нарушения: ${violation.date_violation}<br>Тип ТС: ${violation.vehicle_type}<br>Количество осей: ${violation.count_axles}<br><br>`;
-        violationList.appendChild(item);
-    }
+
+    window.violations.forEach(pvk => {
+        pvk.data.forEach(violation => {
+            const violationDate = new Date(violation.date_violation);
+            if (violationDate >= startDate && violationDate <= endDate) {
+                const listItem = document.createElement('li');
+                listItem.className = 'violation-item';
+                listItem.innerHTML = `
+                    <p>ГРЗ: ${violation.grz}</p>
+                    <p>Дата нарушения: ${violation.date_violation}</p>
+                    <p>Тип ТС: ${violation.vehicle_type}</p>
+                    <p>Количество осей: ${violation.count_axles}</p>
+                `;
+                violationList.appendChild(listItem);
+            }
+        });
+    });
 }

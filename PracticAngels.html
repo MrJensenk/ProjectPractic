@@ -23,9 +23,9 @@
                 <input type="date" name="start_date" id="start-date" required>
                 <label for="end_date">Конец периода</label>
                 <input type="date" name="end_date" id="end-date" required>
-                <input type="submit" id="buttonSearch" value="Поиск нарушений" >
+                <input type="button" id="buttonSearch" value="Поиск нарушений" onclick="filterViolations()">  
             </div>
-            <div id="info_violations"></div>
+            <ul id="violation-list" class="violation-list"></ul>
         </div>
 
     </div>

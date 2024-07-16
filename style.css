@@ -70,7 +70,7 @@ label {
     font-size: 25px;
     margin-bottom: 15px;
 }
-input[type="submit"]{
+input[type="button"]{
     font-size: 18px;
     margin: 20px 0;
     padding: 10px 15px;
@@ -81,7 +81,7 @@ input[type="submit"]{
     text-transform: uppercase;
     transition: background-image 0.5s;
 }
-input[type="submit"]:hover {
+input[type="button"]:hover {
     background-image: linear-gradient(to right, #355f7c, #57a0ee);
     transition: background-image 0.5s;
     cursor: pointer;

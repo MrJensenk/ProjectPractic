@@ -1,0 +1,986 @@
+[
+{
+"id": 2,
+"data": [
+{
+"id_violation": "202307220712322120002637812",
+"date_violation": "2023-07-22T07:12:32+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 65,
+"count_axles": 3
+},
+{
+"id_violation": "202307231530402120002643997",
+"date_violation": "2023-07-23T15:30:40+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд прицепный 5-осный (3+2)",
+"speed": 65,
+"count_axles": 5
+},
+{
+"id_violation": "202307240758152120002645820",
+"date_violation": "2023-07-24T07:58:15+03:00",
+"grz": "Р939ОН152",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 2-осный автомобиль",
+"speed": 68,
+"count_axles": 2
+},
+{
+"id_violation": "202307241116142120002646464",
+"date_violation": "2023-07-24T11:16:14+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 61,
+"count_axles": 3
+},
+{
+"id_violation": "202307241120252120002646483",
+"date_violation": "2023-07-24T11:20:25+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 24,
+"count_axles": 3
+},
+{
+"id_violation": "202307241144242120002646585",
+"date_violation": "2023-07-24T11:44:24+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 52,
+"count_axles": 3
+},
+{
+"id_violation": "202307241211532120002646687",
+"date_violation": "2023-07-24T12:11:53+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 64,
+"count_axles": 4
+},
+{
+"id_violation": "202307241329152120002646987",
+"date_violation": "2023-07-24T13:29:15+03:00",
+"grz": "Р939ОН152",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 2-осный автомобиль",
+"speed": 63,
+"count_axles": 2
+},
+{
+"id_violation": "202307241523402120002647371",
+"date_violation": "2023-07-24T15:23:40+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 29,
+"count_axles": 3
+},
+{
+"id_violation": "202307241812222120002647904",
+"date_violation": "2023-07-24T18:12:22+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 63,
+"count_axles": 4
+},
+{
+"id_violation": "202307241831382120002647956",
+"date_violation": "2023-07-24T18:31:38+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 54,
+"count_axles": 3
+},
+{
+"id_violation": "202307251458572120002650463",
+"date_violation": "2023-07-25T14:58:57+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 62,
+"count_axles": 3
+},
+{
+"id_violation": "202307251835072120002651190",
+"date_violation": "2023-07-25T18:35:07+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 60,
+"count_axles": 5
+},
+{
+"id_violation": "202307261246042120002653197",
+"date_violation": "2023-07-26T12:46:04+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 29,
+"count_axles": 3
+},
+{
+"id_violation": "202307270429082120002655090",
+"date_violation": "2023-07-27T04:29:08+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 61,
+"count_axles": 5
+},
+{
+"id_violation": "202307271005082120002655908",
+"date_violation": "2023-07-27T10:05:08+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 58,
+"count_axles": 3
+},
+{
+"id_violation": "202307271156282120002656311",
+"date_violation": "2023-07-27T11:56:28+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 45,
+"count_axles": 4
+},
+{
+"id_violation": "202307271223022120002656420",
+"date_violation": "2023-07-27T12:23:02+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 63,
+"count_axles": 3
+}
+]
+},
+{
+"id": 1,
+"data": [
+{
+"id_violation": "209580120230727000709",
+"date_violation": "2023-07-27T00:07:09+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Тягач одиночный 3-осный",
+"speed": 81,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727072935",
+"date_violation": "2023-07-27T07:29:35+03:00",
+"grz": "Н863ЕА716",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 76,
+"count_axles": 5
+},
+{
+"id_violation": "209580120230727084613",
+"date_violation": "2023-07-27T08:46:13+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 66,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727084827",
+"date_violation": "2023-07-27T08:48:27+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 72,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727091002",
+"date_violation": "2023-07-27T09:10:02+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 62,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727091958",
+"date_violation": "2023-07-27T09:19:58+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 65,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727092238",
+"date_violation": "2023-07-27T09:22:38+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 65,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727093438",
+"date_violation": "2023-07-27T09:34:38+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 49,
+"count_axles": 3
+},
+{
+"id_violation": "209580120230727094228",
+"date_violation": "2023-07-27T09:42:28+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 58,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727095929",
+"date_violation": "2023-07-27T09:59:29+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 48,
+"count_axles": 6
+},
+{
+"id_violation": "209580120230727095933",
+"date_violation": "2023-07-27T09:59:33+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 51,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727104459",
+"date_violation": "2023-07-27T10:44:59+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 54,
+"count_axles": 3
+},
+{
+"id_violation": "209580120230727110632",
+"date_violation": "2023-07-27T11:06:32+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 59,
+"count_axles": 3
+},
+{
+"id_violation": "209580120230727112029",
+"date_violation": "2023-07-27T11:20:29+03:00",
+"grz": "А187СН164",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 82,
+"count_axles": 5
+},
+{
+"id_violation": "209580120230727113024",
+"date_violation": "2023-07-27T11:30:24+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 69,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727113129",
+"date_violation": "2023-07-27T11:31:29+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 67,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727113526",
+"date_violation": "2023-07-27T11:35:26+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 68,
+"count_axles": 3
+},
+{
+"id_violation": "209580120230727113530",
+"date_violation": "2023-07-27T11:35:30+03:00",
+"grz": "Х540ХН116",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 2-осный автомобиль",
+"speed": 67,
+"count_axles": 2
+},
+{
+"id_violation": "209580120230727113736",
+"date_violation": "2023-07-27T11:37:36+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 82,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727114336",
+"date_violation": "2023-07-27T11:43:36+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 73,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727122040",
+"date_violation": "2023-07-27T12:20:40+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 46,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727122719",
+"date_violation": "2023-07-27T12:27:19+03:00",
+"grz": "Х942РК102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 61,
+"count_axles": 4
+},
+{
+"id_violation": "209580120230727123618",
+"date_violation": "2023-07-27T12:36:18+03:00",
+"grz": "К243АХ774",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 3-осный автомобиль",
+"speed": 51,
+"count_axles": 3
+},
+{
+"id_violation": "209580120230727124957",
+"date_violation": "2023-07-27T12:49:57+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 61,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727125303",
+"date_violation": "2023-07-27T12:53:03+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 70,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727130832",
+"date_violation": "2023-07-27T13:08:32+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 54,
+"count_axles": 6
+},
+{
+"id_violation": "209580120230727130838",
+"date_violation": "2023-07-27T13:08:38+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 59,
+"count_axles": 6
+},
+{
+"id_violation": "209580120230727130841",
+"date_violation": "2023-07-27T13:08:41+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 61,
+"count_axles": 7
+},
+{
+"id_violation": "209580120230727133259",
+"date_violation": "2023-07-27T13:32:59+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 65,
+"count_axles": 6
+},
+{
+"id_violation": "209580120230727134028",
+"date_violation": "2023-07-27T13:40:28+03:00",
+"grz": "",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": false,
+"overweight": true,
+"excess_axle_load": true
+}
+],
+"vehicle_type": "Одиночный грузовой 4-осный автомобиль (2-осная тележка сзади)",
+"speed": 73,
+"count_axles": 4
+}
+]
+},
+{
+"id": 3,
+"data": [
+{
+"id_violation": "2023072701574320200035333289",
+"date_violation": "2023-07-27T06:57:43+03:00",
+"grz": "Е102СН702",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд прицепный 4-осный (2+2) на прицепе 2-осная тележка",
+"speed": 61,
+"count_axles": 4
+},
+{
+"id_violation": "2023072704582720200035334442",
+"date_violation": "2023-07-27T09:58:27+03:00",
+"grz": "В927УУ102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 61,
+"count_axles": 5
+},
+{
+"id_violation": "2023072706365020200035335154",
+"date_violation": "2023-07-27T11:36:50+03:00",
+"grz": "С474МН102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 73,
+"count_axles": 6
+},
+{
+"id_violation": "2023072707215020200035335547",
+"date_violation": "2023-07-27T12:21:50+03:00",
+"grz": "Р764ВО102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 67,
+"count_axles": 7
+},
+{
+"id_violation": "2023072707314720200035335631",
+"date_violation": "2023-07-27T12:31:47+03:00",
+"grz": "С159УН102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 83,
+"count_axles": 5
+},
+{
+"id_violation": "2023072708153020200035336016",
+"date_violation": "2023-07-27T13:15:30+03:00",
+"grz": "С026УН102",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд прицепный 4-осный (2+2) на прицепе 2-осная тележка",
+"speed": 89,
+"count_axles": 4
+},
+{
+"id_violation": "2023072710184320200035337045",
+"date_violation": "2023-07-27T15:18:43+03:00",
+"grz": "К032УК702",
+"type_violation": [
+{
+"excess_length": true,
+"excess_width": false,
+"excess_height": false,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 61,
+"count_axles": 8
+},
+{
+"id_violation": "2023072710535520200035337366",
+"date_violation": "2023-07-27T15:53:55+03:00",
+"grz": "В907КВ702",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": true,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 5-осный (2+3)",
+"speed": 78,
+"count_axles": 5
+},
+{
+"id_violation": "2023072711124920200035337537",
+"date_violation": "2023-07-27T16:12:49+03:00",
+"grz": "Т775КС43",
+"type_violation": [
+{
+"excess_length": false,
+"excess_width": false,
+"excess_height": true,
+"overweight": false,
+"excess_axle_load": false
+}
+],
+"vehicle_type": "Автопоезд седельный 6-осный (3+3)",
+"speed": 65,
+"count_axles": 6
+}
+]
+}
+]
